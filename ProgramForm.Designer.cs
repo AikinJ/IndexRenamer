@@ -63,7 +63,7 @@ namespace IndexRenamer
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.RenameIndexes);
             // 
-            // Form1
+            // ProgramForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -73,8 +73,9 @@ namespace IndexRenamer
             this.Controls.Add(this.btnOpenPictures);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "ProgramForm";
+            this.Text = "Indexrenamer";
+            this.Load += new System.EventHandler(this.ProgramForm_Load);
             this.ResumeLayout(false);
 
         }

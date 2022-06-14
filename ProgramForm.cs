@@ -26,5 +26,10 @@ namespace IndexRenamer
         {
             Renamer.RenameAsIndex(Openfiles.PicturesFilenames);
         }
+
+        private void ProgramForm_Load(Object sender, EventArgs e)
+        {
+
+        }
     }
 }
